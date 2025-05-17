@@ -1,86 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calendário da Colheita</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
- }<section class="escola">
-    <div class="escola-div-conteudo">
-        <h2 class="escola-titulo">Sobre a Escola</h2>
-        <p class="escola-texto-um">A Escola Alura foi fundada em 2010 e tem como objetivo ensinar Pensamento Computacional, através do ensino de  Programação.</p>
-        <p class="escola-texto-dois">A turma mais estudiosa e famosa é a Segunda Série A. Nós somos super unidos e a turma favorita por todos os professores e professoras que nos ajudam!</p>
-    </div>
-    <img class="escola-imagem" src="Formula-bro.png" alt="Professora no quadro">
-</section>
-.<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipe Alura Start</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-</head>
+  <header>
+    <h1>🌽 Calendário da Colheita</h1>
+    <p>Fique por dentro das frutas e hortaliças da estação!</p>
+  </header>
 
+  <main>
+    <label for="mes">Selecione um mês:</label>
+    <select id="mes" onchange="mostrarSafra()">
+      <option value="">-- Escolha --</option>
+      <option value="janeiro">Janeiro</option>
+      <option value="fevereiro">Fevereiro</option>
+      <option value="marco">Março</option>
+      <option value="abril">Abril</option>
+      <option value="maio">Maio</option>
+      <option value="junho">Junho</option>
+      <option value="julho">Julho</option>
+      <option value="agosto">Agosto</option>
+      <option value="setembro">Setembro</option>
+      <option value="outubro">Outubro</option>
+      <option value="novembro">Novembro</option>
+      <option value="dezembro">Dezembro</option>
+    </select>
 
-<section class="escola">
-  <div> class</div>  
-  <h2 class="esrtudante-nome">
+    <section id="resultado"></section>
+  </main>
 
-    <div class="escola-div-conteudo
-        <h2 class="escola-titulo">Sobre a Escola</h2>
-        <p class="escola-texto-um">A Escola Alura foi fundada em 2010 e tem como objetivo ensinar Pensamento Computacional, através do ensino de  Programação.</p>
-        <p class="escola-texto-dois">A turma mais estudiosa e famosa é a Segunda Série A. Nós somos super unidos e a turma favorita por todos os professores e professoras que nos ajudam!</p>
-    </div>
-    <img class="escola-imagem" src="Formula-bro.png" alt="Professora no quadro">
-</section>
+  <footer>
+    <p>Projeto Agrinho - Conectando Campo e Cidade 🌱</p>
+  </footer>
 
-<section class="estudante">
-    <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
-
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div>
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div>
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div><div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div><div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div><div class="estudante-div">
-        <img class="estudante-imagem" src="Marcelo.jpeg" alt="foto do marcelo">
-        <h3 class="estudante-nome">Marcelo</h3>
-        <img class="estudante-icone" src="github.png" alt="icone github">
-        <img class="estudante-icone" src="linkedin.png" alt="icone linkedin">
-        <img class="estudante-icone" src="instagram.png" alt="icone instagram">
-    </div>
-</section>
+  <script src="script.js"></script>
+</body>
+</html>
